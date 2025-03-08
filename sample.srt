@@ -1,0 +1,25 @@
+1
+00:00:01,000 --> 00:00:04,000
+Welcome to the Subtitle Video Generator!
+
+2
+00:00:05,000 --> 00:00:08,000
+This is a sample subtitle file.
+
+3
+00:00:09,000 --> 00:00:12,000
+You can use this to test the application.
+
+4
+00:00:13,000 --> 00:00:18,000
+The generated video will have a transparent background
+with these subtitles appearing at the specified times.
+
+5
+00:00:19,000 --> 00:00:23,000
+You can customize the font, size, and color
+in the application settings.
+
+6
+00:00:24,000 --> 00:00:28,000
+Thanks for using our Subtitle Video Generator!
