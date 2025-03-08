@@ -27,3 +27,7 @@ var/
 venv/
 ENV/
 env/
+
+# User files
+output_video.mp4
+output_frames/*

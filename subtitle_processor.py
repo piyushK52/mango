@@ -33,10 +33,14 @@ def parse_srt(content):
     
     for block in blocks:
         lines = block.strip().split('\n')
-        if len(lines) >= 3:  # Valid subtitle block has at least 3 lines
+        if len(lines) >= 2:  # Changed from 3 to 2 to include empty subtitles
             # Skip the index line
-            time_line = lines[1]
-            text = ' '.join(lines[2:])
+            time_line = lines[1] if '-->' in lines[1] else lines[0]
+            
+            # Get text (might be empty)
+            text = ''
+            if len(lines) > 2 and not '-->' in lines[2]:
+                text = ' '.join(lines[2:])
             
             # Parse time line
             time_match = re.match(r'(\d+:\d+:\d+,\d+)\s*-->\s*(\d+:\d+:\d+,\d+)', time_line)

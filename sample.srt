@@ -23,3 +23,6 @@ in the application settings.
 6
 00:00:24,000 --> 00:00:28,000
 Thanks for using our Subtitle Video Generator!
+
+7
+00:00:29,000 --> 00:00:32,000
